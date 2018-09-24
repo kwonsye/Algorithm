@@ -37,6 +37,9 @@ public class ChickenCoupon {
 		for(int totalChickenCount:list) {
 			System.out.println(totalChickenCount);
 		}
+		
+		sc.close();
 	}
+	
 
 }
