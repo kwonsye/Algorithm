@@ -2,7 +2,7 @@ package pck1;
 
 import java.util.Scanner;
 import java.util.Vector;
-
+//dfs
 public class Cabbage {
 
 	public static void main(String[] args) {

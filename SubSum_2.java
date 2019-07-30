@@ -21,7 +21,7 @@ public class SubSum_2 {
 		for (int index = 0; index < input_array.length; index++) {
 			subSumList.add(input_array[index]);
 
-			if (index != input_array.length-1) {
+			if (index != input_array.length - 1) {
 				for (int nextIndex = index + 1; nextIndex < input_array.length; nextIndex++) {
 					int previous = subSumList.get(subSumList.size() - 1);
 					int sum = previous + input_array[nextIndex];
@@ -29,9 +29,9 @@ public class SubSum_2 {
 				}
 			}
 		}
-		
-		Collections.sort(subSumList); //오름차순 정렬
-		System.out.println(subSumList.get(subSumList.size()-1));
+
+		Collections.sort(subSumList); // 오름차순 정렬
+		System.out.println(subSumList.get(subSumList.size() - 1));
 
 	}
 

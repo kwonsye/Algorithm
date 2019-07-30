@@ -56,6 +56,7 @@ public class ShortestPath {
 				if(!isVisit[index]) //방문하지 않은경우만
 					dist[index]=Math.min(dist[index], dist[temp]+graph[temp][index]);
 			}
+			
 		}
 		
 		//사용자 입력부분
