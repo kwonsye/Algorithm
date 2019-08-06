@@ -1,4 +1,4 @@
-package MashUpStudy;
+package pck1.MashUpStudy;
 
 public class BinaryGap {
 
