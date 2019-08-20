@@ -1,7 +1,8 @@
 package pck1.MashUpStudy;
 
 import java.util.Arrays;
-/* ÄÚµô¸®Æ¼ Lesson6_1 ½ÇÇà °á°ú
+
+/* Ã„ÃšÂµÃ´Â¸Â®Ã†Â¼ Lesson6_1 Â½Ã‡Ã‡Ã  Â°Ã¡Â°Ãº
  * https://app.codility.com/demo/results/training8524RV-QUH/
  */
 public class MaxProductOfThree {
